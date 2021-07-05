@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+    <!-- jQuery -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <!-- FlexSlider -->
+    <script type="text/javascript" src="img/js/jquery.flexslider-min.js"></script>
+    <script type="text/javascript" charset="utf-8">
+        var $ = jQuery.noConflict();
+        $(window).load(function () {
+            $('.flexslider').flexslider({
+                animation: "fade"
+            });
+
+            $(function () {
+                $('.show_menu').click(function () {
+                    $('.menu').fadeIn();
+                    $('.show_menu').fadeOut();
+                    $('.hide_menu').fadeIn();
+                });
+                $('.hide_menu').click(function () {
+                    $('.menu').fadeOut();
+                    $('.show_menu').fadeIn();
+                    $('.hide_menu').fadeOut();
+                });
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <header id="myInfo">
+        <div class="mainCounter">
+            <div class="sideBox">
+                <div class="lSide">
+                    <h1> <a class="busnessName" href="#">Al Imran</a></h1>
+                    <h3><a class="companyName" href="#">Company</a></h3>
+
+                </div>
+                <div class="rSide">
+                    <div class="floatPhone">
+                        <span class="phoneIcon">
+                            <i class="fas fa-phone"></i>
+                        </span>
+                        <span class="phoneNumber">
+                            +88017711501800
+                        </span>
+                    </div>
+                    <p>Call us now to get a free business consultation from our experts!</p>
+
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </header>
+
+    <nav id="navication">
+        <div class="mainCounter">
+
+            <div class="navBer">
+                <ul>
+                    <li><a class="activ" href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a> </li>
+                    <li><a href="#">TYPOGRAPHY</a></li>
+                    <li><a href="#">CONTACTS</a></li>
+
+
+                </ul>
+
+            </div>
+
+        </div>
+    </nav>
+
+    <section id="mainSlider">
+        <div class="container" style="max-width:100%;padding:0;">
+
+            <div class="slider_container">
+                <div class="flexslider">
+                    <ul class="slides" style="height:555px">
+                        <li>
+                            <a href="#"><img src="img/images/slider/alimran.jpeg" style="height:600px" alt=""
+                                    title="" /></a>
+
+                        </li>
+                        <li>
+                            <a href="#"><img src="img/images/slider/slide3.jpeg" style="height:600px" alt=""
+                                    title="" /></a>
+
+                        </li>
+                        <li>
+                            <a href="#"><img src="img/images/slider/slide4.jpeg" style="height:600px" alt=""
+                                    title="" /></a>
+
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+    </section>
+
+    <section id="global-box">
+        <div class="mainCounter">
+            <div class="mainRecher">
+                <div class="recherseBox">
+                    <span class='iconBox'><i class="fas fa-globe-americas"></i></span>
+                    <h3>Global</h3>
+                    <h3>research</h3>
+                    <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                    <span class="arrow"> <a href="#"> <i class="fas fa-chevron-right"></i></a></span>
+                </div>
+                <div class="recherseBox">
+                    <span class='iconBox'><i class="fas fa-globe-americas"></i></span>
+                    <h3>Creative</h3>
+
+                    <h3>ideas</h3>
+                    <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                    <span class="arrow"> <a href="#"> <i class="fas fa-chevron-right"></i></a></span>
+                </div>
+                <div class="recherseBox">
+                    <span class='iconBox'><i class="fas fa-cog"></i></span>
+                    <h3>Global</h3>
+                    <h3>research</h3>
+                    <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                    <span class="arrow"> <a href="#"> <i class="fas fa-chevron-right"></i></a></span>
+                </div>
+                <div class="recherseBox">
+                    <span class='iconBox'><i class="fas fa-toolbox"></i></i></span>
+                    <h3>Global</h3>
+                    <h3>research</h3>
+                    <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                    <span class="arrow"> <a href="#"> <i class="fas fa-chevron-right"></i></a></span>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <section id='mainService'>
+        <div class="mainCounter">
+            <div class="service border">
+                <span><i class="fas fa-comments"></i></span>
+                <h2>Free Consultations</h2>
+                <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolor.</p>
+
+            </div>
+            <div class="service border">
+                <span><i class="fas fa-users"></i></span>
+                <h2>Qualified Team</h2>
+                <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolor.</p>
+
+            </div>
+            <div class="service">
+                <span><i class="far fa-calendar-alt"></i></span>
+                <h2>Extensive Services</h2>
+                <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolor.</p>
+
+            </div>
+            <div class="service">
+                <span><i class="fas fa-thumbs-up"></i></i></span>
+                <h2>99% Satisfied Customers</h2>
+                <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolor.</p>
+
+            </div>
+
+        </div>
+    </section>
+    <section id="fuckaFooter">
+        <div class="mainCrush">
+            <div class="mainCounter">
+                <div class="crush">
+                    <span><i class="fas fa-map-marker-alt"></i></span>
+                    <p>Bogura,Bangladesh</p>
+
+                </div>
+                <div class="crush">
+                    <span><i class="fas fa-phone"></i></span>
+                    <p>01771501800</p>
+
+                </div>
+                <div class="crush">
+                    <span>
+                        <<i class="fab fa-facebook-f"></i></i>
+                    </span>
+                    <p>Follow on Facebook</p>
+
+                </div>
+                <div class="crush">
+                    <span><i class="fas fa-envelope"></i></i></span>
+                    <p>alemran711@gmail.com</p>
+
+                </div>
+                <div class="crush">
+                    <span><i class="fas fa-blender-phone"></i></span>
+                    <p>
+                        800-2345-6790</p>
+
+                </div>
+                <div class="crush">
+                    <span><i class="fas fa-map-marker-alt"></i></span>
+                    <p>Follow on Twitter</p>
+
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <footer id="theEnd">
+        <div class="mainCounter">
+            <div class="bcolor"></div>
+            <p>&copy; 2021 Design by Al Imran.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
